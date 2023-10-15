@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/775b6c9ca6.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;900&display=swap" rel="stylesheet">
+    <script src="script1.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>ZauX-Portfolio</title>
 </head>
 
@@ -24,16 +24,18 @@
                     <i class="fa fa-arrow-circle-o-down"></i>
                 </label>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><a href="#mainpart">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#latest-projects">Projects</a></li>
+                    <li><a href="#work-experience">WorkExperience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
                 </ul>
             </div>
         </nav>
     </header>
 
-    <main class="main-part">
+    <main class="main-part" id="main-part">
         <section class="page1-section1">
             <div class="page1-section1-left">
                 <section class="page1-section1-hiddenimage">
@@ -57,7 +59,56 @@
             </div>
         </section>
         <hr>
-        <section class="page1-section2">
+        <section class="page1-section5" id="about">
+            <h1 class="page1-section5-h11">About</h1>
+            <section class="page1-section5-1">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/dp.JPG" alt="" width="300px">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <br>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus optio officiis atque
+                            consequatur facere! Aut quod enim fugiat cupiditate minima consequuntur asperiores, eaque
+                            excepturi similique beatae illum omnis voluptatem distinctio!
+                            Dolor, accusamus facere, quidem labore hic impedit eum, sapiente nisi unde fuga placeat
+                            aliquam ab! Blanditiis error, et eveniet saepe laborum, placeat dolore sed dolor esse, culpa
+                            quis voluptatum eligendi.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UX/UI</span><br>DESIGNING WEB/APP INTERFACES</li>
+                                <li><span>WEB DEVELOPMENT</span><br>WEB APP DEVELOPMENT</li>
+                                <li><span>APP DEVLOPMENT</span><br>DEVELOPING ANDEROID APPS/IOS APPS</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023-Current</span><br>DESIGNING WEB/APP INTERFACES</li>
+                                <li><span>2020-2021</span><br>WEB APP DEVELOPMENT</li>
+                                <li><span>2020-2019</span><br>DEVELOPING ANDEROID APPS/IOS APPS</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2021</span><br>WEB APP DEVELOPMENT</li>
+                                <li><span>2020-2019</span><br>DEVELOPING ANDEROID APPS/IOS APPS</li>
+                                <li><span>APP DEVLOPMENT</span><br>DEVELOPING ANDEROID APPS/IOS APPS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <hr>
+        <section class="page1-section2" id="latest-projects">
             <h1>Latest Projects</h1>
             <section class="page1-section2-boxes1">
                 <div class="page1-section2-box1">
@@ -82,7 +133,7 @@
             </section>
         </section>
         <hr>
-        <section class="page1-section3">
+        <section class="page1-section3" id="work-experience">
             <h1>Work Experience</h1>
             <div class="timeline">
                 <div class="timeline__component">
@@ -136,6 +187,45 @@
                 </div>
             </div>
         </section>
+        <hr>
+        <section class="page1-section4" id="contact">
+            <h1>Contact</h1>
+            <section class="page1-section4-1">
+                <div class="page1-section4-left">
+                    <div><i class="fa-brands fa-telegram "></i> contact@example.com</div>
+                    <br>
+                    <div><i class="fa-solid fa-phone "></i> 0123456789</div>
+                    <br>
+                    <div>
+                        <ul>
+                            <a href="https://www.youtube.com" target="_blank"><i
+                                    class="fa-brands fa-twitter fa-2x"></i></a>
+                            <a href="https://www.instagram.com/always_studious/" target="_blank"><i
+                                    class="fa-brands fa-instagram fa-2x"></i></a>
+                            <a href="https://github.com/AddiJain/studious-senior" target="_blank"><i
+                                    class="fa-brands fa-github fa-2x"></i></a>
+                            <a href="https://t.me/studious_senior" target="_blank"><i
+                                    class="fa-brands fa-telegram fa-2x"></i></a>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="page1-section4-secbutton">
+                        <button class="page1-section1-button2"><a href="">Download Resume</a></button>
+                    </div>
+                </div>
+                <div class="page1-section4-right">
+                    <form action="/submit" method="post">
+                        <input type="text" id="username" name="username" placeholder="Your Name" required>
+                        <br><br>
+                        <input type="password" id="password" name="password" placeholder="Your Email" required>
+                        <br><br>
+                        <textarea id="review" name="review" placeholder="Your message" rows="10" cols="1"></textarea>
+                        <br><br>
+                        <input class="contact-submit"  type="submit" value="Submit">
+                    </form>
+                </div>
+            </section>
+        </section>
     </main>
 
     <footer class="footer">
@@ -165,14 +255,15 @@
                 <p>Socials</p>
                 <br>
                 <ul>
-                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
-                <a href="https://www.instagram.com/always_studious/" target="_blank"><i
-                        class="fa-brands fa-instagram fa-2x"></i></a>
-                <a href="https://github.com/AddiJain/studious-senior" target="_blank"><i
-                        class="fa-brands fa-github fa-2x"></i></a>
-                <a href="https://t.me/studious_senior" target="_blank"><i class="fa-brands fa-telegram fa-2x"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/always_studious/" target="_blank"><i
+                            class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="https://github.com/AddiJain/studious-senior" target="_blank"><i
+                            class="fa-brands fa-github fa-2x"></i></a>
+                    <a href="https://t.me/studious_senior" target="_blank"><i
+                            class="fa-brands fa-telegram fa-2x"></i></a>
                 </ul>
-                </div>
+            </div>
         </section>
     </footer>
 
@@ -183,6 +274,22 @@
             strings: ['Web Developer', 'Web Designer', 'Web App Developer', 'Web Programmer'],
             typeSpeed: 70,
         });
+    </script>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks) {
+                tablink.classList.ramove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.ramove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
     </script>
 </body>
 
