@@ -70,7 +70,7 @@ nav .menu-btn i {
     display: none;
 }
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
     display: none;
 }
 
@@ -78,10 +78,11 @@ input[type="checkbox"] {
     nav {
         padding: 0 40px 0 50px;
     }
-}
+} */
 
 @media (max-width: 920px) {
-    nav .menu-btn i {
+
+    /* nav .menu-btn i {
         display: block;
     }
 
@@ -127,6 +128,9 @@ input[type="checkbox"] {
     nav ul li a:hover {
         background: none;
         color: black;
+    } */
+    .nav-right {
+        display: none;
     }
 }
 
@@ -348,19 +352,13 @@ input[type="checkbox"] {
 .page1-section5 {
     height: auto;
     margin: 25px 40px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.page1-section5-h11 {
-    font-family: "Fira Sans", sans-serif;
-    color: black;
-    font-size: 40px;
-    margin: 0px 43px;
-    font-weight: 900;
-}
 
 .page1-section5-1 {
     padding: 90px 60px;
-    font-family: "Fira Sans", sans-serif;
+
 }
 
 .row {
@@ -384,7 +382,6 @@ input[type="checkbox"] {
 
 .sub-title {
     font-size: 60px;
-    font-family: "Fira Sans", sans-serif;
     color: black;
 }
 
@@ -439,13 +436,13 @@ input[type="checkbox"] {
     .about-col-2 {
         width: 400px;
     }
+
     .page1-section5-1 {
         padding: 90px 60px;
-        font-family: "Fira Sans", sans-serif;
     }
+
     .page1-section5-1 {
         padding: 20px;
-        font-family: "Fira Sans", sans-serif;
     }
 
     .page1-section5 {
@@ -457,8 +454,7 @@ input[type="checkbox"] {
 @media screen and (max-width:800px) and (min-width: 700px) {
 
     .page1-section5-1 {
-        padding: 60px 20px;
-        font-family: "Fira Sans", sans-serif;
+        padding: 20px 20px;
     }
 
     .page1-section5 {
@@ -471,6 +467,10 @@ input[type="checkbox"] {
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 40px;
+    }
+
+    .sub-title {
+        font-size: 32px;
     }
 
     .about-col-1 {
@@ -498,12 +498,15 @@ input[type="checkbox"] {
 
     .page1-section5-1 {
         padding: 40px 0px;
-        font-family: "Fira Sans", sans-serif;
     }
 
     .page1-section5 {
         height: auto;
-        margin: 40px 0px;
+        margin: 20px 0px;
+    }
+
+    .sub-title {
+        font-size: 28px;
     }
 
     .row {
@@ -511,6 +514,10 @@ input[type="checkbox"] {
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 40px;
+    }
+
+    .aftdel {
+        display: none;
     }
 
     .about-col-1 {
@@ -524,7 +531,7 @@ input[type="checkbox"] {
     }
 
     .about-col-2 {
-        width: 600px;
+        width: 1000px;
         text-align: center;
         justify-content: center;
         display: block;
@@ -552,11 +559,19 @@ input[type="checkbox"] {
         margin: 20px 0px;
     }
 
+    .sub-title {
+        font-size: 24px;
+    }
+
+    .aftdel {
+        display: none;
+    }
+
     .row {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 40px;
+        gap: 30px;
     }
 
     .about-col-1 {
@@ -579,6 +594,7 @@ input[type="checkbox"] {
         width: 50%;
         padding: -40px;
     }
+
     .tab-titles {
         display: flex;
         flex-wrap: wrap;
@@ -586,7 +602,7 @@ input[type="checkbox"] {
         gap: 25px;
     }
 }
-    
+
 
 /* PAGE 1 SECTION 5 END */
 
@@ -987,7 +1003,7 @@ input[type="checkbox"] {
         width: 300px;
         height: 100px;
     }
-    
+
 
 }
 

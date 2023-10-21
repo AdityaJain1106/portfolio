@@ -29,7 +29,6 @@
                     <li><a href="#latest-projects">Projects</a></li>
                     <li><a href="#work-experience">WorkExperience</a></li>
                     <li><a href="#contact">Contact</a></li>
-
                 </ul>
             </div>
         </nav>
@@ -71,15 +70,12 @@
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus optio officiis atque
                             consequatur facere! Aut quod enim fugiat cupiditate minima consequuntur asperiores, eaque
                             excepturi similique beatae illum omnis voluptatem distinctio!
-                            Dolor, accusamus facere, quidem labore hic impedit eum, sapiente nisi unde fuga placeat
-                            aliquam ab! Blanditiis error, et eveniet saepe laborum, placeat dolore sed dolor esse, culpa
-                            quis voluptatum eligendi.
                         </p>
 
                         <div class="tab-titles">
                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links aftdel" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links aftdel" onclick="opentab('education')">Education</p>
                         </div>
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
@@ -220,7 +216,7 @@
                         <br><br>
                         <textarea id="review" name="review" placeholder="Your message" rows="10" cols="1"></textarea>
                         <br><br>
-                        <input class="contact-submit"  type="submit" value="Submit">
+                        <input class="contact-submit" type="submit" value="Submit">
                     </form>
                 </div>
             </section>
@@ -279,7 +275,7 @@
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
-        function opentab(tabname){
+        function opentab(tabname) {
             for (tablink of tablinks) {
                 tablink.classList.ramove("active-link");
             }
