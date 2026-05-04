@@ -23,3 +23,4 @@ I am a Full-Stack Developer currently studying at Vellore Institute of Technolog
 
 I am also an active open-source contributor, having participated in programs like **GirlScript Summer of Code (GSSoC)** and **Hacktoberfest**.
 
+
