@@ -20,7 +20,7 @@ export default function Contact() {
             <div>Phone: +91 **********</div>
           </div>
           <div className="page1-section4-right">
-            <form method="POST" data-netlify="true">
+            <form method="POST" >
               <h3>YOUR NAME</h3>
               <input type="text" id="username" name="username" placeholder="" required />
               
