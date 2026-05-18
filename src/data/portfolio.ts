@@ -1,5 +1,12 @@
 export const projects = [
   {
+  title: "NeuroRead",
+  description:
+    "NeuroRead is an AI-powered Chrome extension designed to improve web accessibility and smarter reading. It offers features like focus mode, dyslexia-friendly text customization, AI summaries, translation, text-to-speech, OCR tools, research assistance, bookmarking, and page capture to make browsing easier and more productive for everyone.",
+  image: "https://i.ibb.co/Gv9Q8PM7/Gemini-Generated-Image-l5qxnbl5qxnbl5dfsqx.png",
+  github: "https://github.com/AdityaJain1106/NeuroRead",
+},
+  {
     title: "FinanceX",
     description: "Finance X is a unified platform offering financial learning, live news, smart comparisons, custom calculators, and AI advice—empowering users to simplify money decisions and take control of their personal finances with confidence.",
     image: "https://i.ibb.co/LDwHv5zL/financex.jpg",
@@ -7,17 +14,39 @@ export const projects = [
     github: "https://github.com/AdityaJain1106/FinanceX",
   },
   {
-    title: "Netflix Clone",
-    description: "This project is a Netflix landing page clone that mimics the look and feel of the popular streaming service.",
-    image: "https://i.ibb.co/zHc86Hd/netflix-logo-netflix-icon-free-free-vector.jpg",
-    link: "https://adityajain1106.github.io/movies/",
-    github: "https://github.com/AdddiJain/movies",
+    title: "Store",
+    description: "A fully responsive merchandise store web app built with HTML, CSS, and JavaScript, offering seamless browsing, selection, and purchasing across all devices with an intuitive and modern user interface.",
+    image: "https://i.ibb.co/ygMBpHp/Perfect-unique-attractive-stylisdfsdh-geometric-tech-PD-DP-P-D-initial-based-letter-icon-logo.png",
+    link: "https://adityajain1106.github.io/store/",
+    github: "https://github.com/AdddiJain/store",
   },
   {
     title: "Streaming Platform",
     description: "A multi-platform streaming clone inspired by Netflix, Prime Video, and Disney+, featuring dynamic content, thumbnails, descriptions, and genre-based browsing using JavaScript..",
     image: "https://i.ibb.co/5GzyLLx/Perfect-unique-attractive-stylish-geometric-tech-PD-DP-P-D-initial-based-letter-icon-logo-1.png",
     link: "https://adityajain1106.github.io/movies/HomePage.html",
+    github: "https://github.com/AdddiJain/movies",
+  },
+  {
+    title: "Studious",
+    description: "A JEE prep portal offering organized study materials, detailed lectures, one-shot sessions, question-solving videos, and recommended books—designed to enhance learning and cover all essential JEE topics.",
+    image: "https://i.ibb.co/Ht1ykDF/logo.png",
+    link: "http://adityajain1106.github.io/studious/",
+    github: "https://github.com/AdddiJain/studious",
+  },
+  {
+  title: "Personal Portfolio",
+  description:
+    "A modern and responsive personal portfolio website showcasing my projects, technical skills, certifications, achievements, and development journey. Built to highlight my work in full-stack development, AI-powered applications, accessibility tools, and innovative software projects with a clean and interactive user experience.",
+  image: "https://i.ibb.co/fz2PDWW9/IMG20260319150903610.jpg",
+  link: "https://adityajain-eportfolio.netlify.app/",
+  github: "https://github.com/AdityaJain1106/portfolio",
+},
+  {
+    title: "Netflix Clone",
+    description: "This project is a Netflix landing page clone that mimics the look and feel of the popular streaming service.",
+    image: "https://i.ibb.co/zHc86Hd/netflix-logo-netflix-icon-free-free-vector.jpg",
+    link: "https://adityajain1106.github.io/movies/",
     github: "https://github.com/AdddiJain/movies",
   },
   {
@@ -33,20 +62,6 @@ export const projects = [
     image: "https://i.ibb.co/JF6vQ67/5088396.jpg",
     link: "https://adityajain1106.github.io/player/",
     github: "https://github.com/AdddiJain/player",
-  },
-  {
-    title: "Store",
-    description: "A fully responsive merchandise store web app built with HTML, CSS, and JavaScript, offering seamless browsing, selection, and purchasing across all devices with an intuitive and modern user interface.",
-    image: "https://i.ibb.co/ygMBpHp/Perfect-unique-attractive-stylisdfsdh-geometric-tech-PD-DP-P-D-initial-based-letter-icon-logo.png",
-    link: "https://adityajain1106.github.io/store/",
-    github: "https://github.com/AdddiJain/store",
-  },
-  {
-    title: "Studious",
-    description: "A JEE prep portal offering organized study materials, detailed lectures, one-shot sessions, question-solving videos, and recommended books—designed to enhance learning and cover all essential JEE topics.",
-    image: "https://i.ibb.co/Ht1ykDF/logo.png",
-    link: "http://adityajain1106.github.io/studious/",
-    github: "https://github.com/AdddiJain/studious",
   }
 ];
 
